@@ -1,0 +1,128 @@
+body{
+background-color: #957186;
+}
+
+
+
+     
+
+.container{
+    display: flex;
+
+}
+.card{
+    
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    
+    
+}
+    
+.card img{
+    width: 100%;
+}
+
+.card p{
+    padding-left: 10px;
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 14px;
+    text-align: center;
+}
+.titulo img{
+    width: 10%;
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50%;
+    justify-content: 
+}
+
+.titulo{
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    margin: 10px;
+    align-items: flex-start;
+    
+    
+
+}
+.legenda{
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    margin: 10px;
+    align-items: baseline;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    body{
+        background-color: black
+
+    }
+
+    .container{
+
+        display: flex;
+        
+    }
+        .card{
+            
+            flex-direction: row;
+            width: 100%;
+            padding: 10px;
+            background-color: #ffffff;
+            margin: 10px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            
+            
+        }
+            
+        .card img{
+            width: 100%;
+        }
+        
+        .card p{
+            padding-left: 10px;
+            flex-direction: column;
+            font-family: cursive;
+            font-size: 14px;
+            text-align: center;
+        }
+        .titulo img{
+            width: 10%;
+            height: 100px;
+            background-color: #000;
+            color: #FFF;
+            border-radius: 50%;
+            justify-content: 
+        }
+        
+        .titulo{
+            font-size: 16px;
+            font-family: cursive;
+            text-align: center;
+            margin: 10px;
+            align-items: flex-start;
+            
+            
+        
+        }
+        .legenda{
+            font-size: 16px;
+            font-family: cursive;
+            text-align: center;
+            margin: 10px;
+            align-items: baseline;
+            
+        }

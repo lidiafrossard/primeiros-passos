@@ -1,40 +1,212 @@
+
 body{
+    background-color:  #FCF0CC;
+    
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+}
+
+.container{
+    width: auto;
+    display: flex;
+}
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+}
+
+h2{
+    font-family: cursive;
+    text-align: center;
+}
+
+h3{
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.head{
+    background:#FFE1EA;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.head p{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    
+    
+    
+}
+.head img{
+    width: 10%;
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50%;
+ 
+    
+   
+    
+   
+
+}
+.container{
+    width: auto;
+    display: flex;
+    
+
+
+}
+   
+    
+
+.card{
+    width: 500px;
+    padding: 10px;
+    background: #861657;
+    margin: 10px;
+    
+    
+}
+
+.card p{
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    background-color:#55286F
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+
+   
+    ;
 }
 
-img{ 
-    width: 300px;
-}
-div{
-background-color: #BC96E6;
-width: 300px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 16px;
-color: black;
-text-align: center;
-
-}
-.minhafoto{
-border-radius: 50%;
-width: 100px;}
-.header{
-    width: 300px;
-    position: absolute;
-    left: 400px;
-    top: 5px;
-    background-color:#55286F
-    
+.card img {
+    width: 100%;
     
 }
-
-.titulo {
-width: 300px;
-position: absolute; 
-left: 500px;
-top: 05px;
-color: brown;
-
-
+    
+.card a{
+    color: black;
+    text-decoration: none;
 }
+
+.card a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    body{
+        background-color: whitesmoke
+        
+    }
+    h1{
+        font-family: cursive;
+        text-align: center;
+    }
+    
+    h2{
+        font-family: cursive;
+        text-align: center;
+    }
+    
+    h3{
+        font-family: cursive;
+        text-align: center;
+    
+    }
+    
+    .head{
+        background:#FFE1EA;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+    }
+    .head p{
+        font-size: 30px;
+        font-family: cursive;
+        text-align: center;
+        
+        
+        
+    }
+    .head img{
+        width: 10%;
+        height: 60px;
+        background-color: #000;
+        color: #FFF;
+        border-radius: 50%;
+     
+        
+       
+        
+       
+    
+    }
+    .container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+       
+        
+    
+    .card{
+        width: 500px;
+        padding: 10px;
+        background: #861657;
+        margin: 10px;
+        
+        
+    }
+    
+    .card p{
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #000;
+        font-weight: 500;
+    
+       
+        ;
+    }
+    
+    .card img {
+        width: 100%;
+        
+    }
+        
+    .card a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .card a:hover{
+        color: blue;
+        text-decoration: none;
+    }
+
+  
+
+
+
+
+
+
