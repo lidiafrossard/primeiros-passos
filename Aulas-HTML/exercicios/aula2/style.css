@@ -1,0 +1,17 @@
+/* MEU PRIMEIRO CSS*/
+
+
+
+.manifesto{
+
+    font-family:'Monteserrat',sans-serif
+    font-weight:bolder
+    font-size 12px
+    line-height:16px 
+    text-align:justify
+    color:blueviolet
+}
+
+body{
+    background: brown;
+}
