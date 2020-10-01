@@ -1,10 +1,12 @@
-function checarSePodeDirigir() {
-    let idade = prompt ('Digite idade');
+//function checarSePodeDirigir() {
+    //let idade = prompt ('Digite idade');
 
-    if (idade >= 18) {
+    //if (idade >= 18) {
         alert ('Você já pode dirigir!');
-    } else {
+    //} else {
         alert ('Você não tem idade para dirigir!');
     }
 }
-checarSePodeDirigir();
+//checarSePodeDirigir();
+
+console.log(document.getElementById ('Saudação'))
